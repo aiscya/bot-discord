@@ -1,0 +1,11 @@
+{
+  "watch": ["."],
+  "ext": "js,json",
+  "exec": "node index.js",
+  "events": {
+    "restart": "echo 'File telah diubah, bot sedang restart...'",
+    "crash": "echo 'Bot mengalami crash, sedang restart...'",
+    "start": "echo 'Bot telah dimulai...'",
+    "quit": "echo 'Bot telah berhenti...'"
+  }
+}
