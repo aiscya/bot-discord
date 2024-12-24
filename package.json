@@ -1,7 +1,7 @@
 {
   "name": "discord-bot",
   "version": "1.0.0",
-  "description": "A Discord bot with auto-restart on file changes",
+  "description": "Sims bot discord",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
